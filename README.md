@@ -29,14 +29,14 @@ Things get slightly more complicated when we talk about the relationship between
     <td> post_id </td>
     <td> user_id </td>
   </tr>
-  
+
   <tr>
     <td> 1 </td>
     <td> "I loved this post!" </td>
     <td> 5 </td>
     <td> 3 </td>
   </tr>
-</table>
+</table>a
 
 For this instance, we know that the `Comment` with an ID of `1` was created by the `User` with an ID of `3` for the `Post` with an ID of `5`. We have all of the information we need to determine all of the posts that a particular user has commented on as well as all of the users who commented on any post. When we're done, we'll be able to simply call `@user.posts` to get a collection of all of those posts.
 
