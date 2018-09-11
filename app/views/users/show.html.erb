@@ -3,3 +3,9 @@
 <% @user.posts.each do |post| %>
   <%= link_to post.title, post_path(post) %>
 <% end %>
+
+<h2><%= @user.username %></h2> has made the following comments:
+
+<% @user.comments.each do |comment| %>
+  <%= comment.content %>
+<% end %>
