@@ -73,6 +73,7 @@ end
 ```ruby
 # db/migrate/xxx_create_comments
 
+ #there was a fourth, unneccesary, end included in this table
 class CreateComments < ActiveRecord::Migration
   def change
     create_table :comments do |t|
@@ -82,7 +83,6 @@ class CreateComments < ActiveRecord::Migration
       t.timestamps null: false
     end
   end
-end
 end
 ```
 
