@@ -1,0 +1,7 @@
+<!-- # app/views/posts/index.html.erb -->
+
+Posts:
+  <% @posts.each do |post| %>
+    <%= link_to post.title, post_path(post) %> -
+    <%= post.content %>
+  <% end %>
