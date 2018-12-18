@@ -4,6 +4,8 @@
 </p>
 Comments:
   <% @post.comments.each do |comment| %>
+  
+  <%binding.pry%>
     <%= link_to comment.user.username, user_path(comment.user) %> said
     <%= comment.content %>
   <% end %>
