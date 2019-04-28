@@ -1,6 +1,8 @@
 
 # Displaying Has Many Through Rails
 
+Done.
+
 ## Objectives
 
 1. Construct a bi-directional has many through.
