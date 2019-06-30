@@ -3,7 +3,7 @@
   Content: <%= @post.content %>
 </p>
 Comments:
-  <% @post.comments.each do |comment| %>
-    <%= link_to comment.user.username, user_path(comment.user) %> said
-    <%= comment.content %>
+  <% @post.comments.each do |com| %>
+    <%= link_to com.user.username, user_path(com.user) %> said
+    <%= com.content %>
   <% end %>
