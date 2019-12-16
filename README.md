@@ -14,6 +14,7 @@ We've seen how we can use simple associations to display data to our users in Ra
 
 ## Lesson
 
+
 ### has_many, through
 
 Let's say you're making a blog and want to give users the ability to sign up and comment on your posts. What's the relationship between a post and a comment?  If you said, "A comment belongs to a post, and a post has many comments," give yourself a pat on the back!
@@ -29,7 +30,7 @@ Things get slightly more complicated when we talk about the relationship between
     <td> post_id </td>
     <td> user_id </td>
   </tr>
-  
+
   <tr>
     <td> 1 </td>
     <td> "I loved this post!" </td>
