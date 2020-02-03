@@ -3,3 +3,5 @@
 <% @user.posts.each do |post| %>
   <%= link_to post.title, post_path(post) %>
 <% end %>
+
+<%# allows the user to check out all the posts they've comment on. %>
